@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dawkins.Weasel", "Dawkins.Weasel\Dawkins.Weasel.csproj", "{01068411-2152-48D4-A9F9-FF46EB2B2B65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dawkins.Weasel.Tests", "Dawkins.Weasel.Tests\Dawkins.Weasel.Tests.csproj", "{2B48A646-7856-47AF-B7AA-EDEFDEC3233E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01068411-2152-48D4-A9F9-FF46EB2B2B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01068411-2152-48D4-A9F9-FF46EB2B2B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01068411-2152-48D4-A9F9-FF46EB2B2B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01068411-2152-48D4-A9F9-FF46EB2B2B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B48A646-7856-47AF-B7AA-EDEFDEC3233E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B48A646-7856-47AF-B7AA-EDEFDEC3233E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B48A646-7856-47AF-B7AA-EDEFDEC3233E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B48A646-7856-47AF-B7AA-EDEFDEC3233E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
