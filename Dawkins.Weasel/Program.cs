@@ -13,7 +13,10 @@ namespace Dawkins.Weasel
             var firstString = weaselMachine.GenerateRandomString(target.Length);
 
             var result = 0;
+            var generationCounter = 1;
             var startString = firstString;
+            
+            Console.WriteLine($"G   WINNER                         SCORE");
 
             while (result < target.Length)
             {
@@ -24,7 +27,8 @@ namespace Dawkins.Weasel
                 startString = generationWinner.Key;
                 result = generationWinner.Value;
                 
-                Console.WriteLine($"{startString} : {result}");
+                Console.WriteLine($"{generationCounter} - {startString} : {result}");
+                generationCounter++;
             }
         }
     }
