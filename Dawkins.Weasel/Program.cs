@@ -7,7 +7,7 @@ namespace Dawkins.Weasel
     {
         static void Main(string[] args)
         {
-            var target = "STRUDEL IS THE BEST DOG EVER";
+            var target = "METHINKS IT IS LIKE A WEASEL";
             var  weaselMachine = new WeaselMachine(target);
             
             var firstString = weaselMachine.GenerateRandomString(target.Length);
